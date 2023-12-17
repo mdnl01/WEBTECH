@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*&   NAVBAR CSS   */
+#navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    background-color: #292e32;
+}
+.match{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+}
+.row{
+    width: 90%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#navbar .row #halcyonic{
+    /* width: 30%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    font-size: 49px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+    color:whitesmoke;
+}
+
+#navbar .row #rightcontent{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: whitesmoke;
+}
+/*&     BANNER CSS     */
+#banner{
+    height: 350px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #384043;
+}
+
+#bannerleft, #bannerright{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 90%;
+
+}
+.row{
+    height: 80%;
+}
+
+#bannerleft{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: start;
+}
+#content, #button{
+    display: flex;
+    height: 30%;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#content{
+    font-size: 36px;
+    color: white;
+}
+#button{
+    height: 60px;
+    font-size: 31px;
+    text-decoration: none;
+}
+#clickme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    color: white;
+    background-color: #e43013;
+    height: 90%;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px rgb(105 104 118);
+    text-shadow:1px 2px 1px black;
+
+}
+#clickme:hover{
+    background-color:#fc3315;
+}
+
+#bannerright
+{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bannerimage{
+    height: 95%;
+    width: 95%;
+}
+
+/*& BANNER 2 CSS */
+#banner2{
+    background-color: #333b3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 350px;
+}
+
+.match{
+    height: 90%;
+}
+
+.card
+{
+    /* border: 2px solid   blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 23%;
+    height: 90%;
+}
+.cardcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+    /* border: 2px solid red; */
+}
+.text01{
+    font-size: 20px;
+}
+.text01, .text02{
+    color: white;
+    /* border: 2px solid red; */
+}
+.piccontainer{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    /* border: 2px solid wheat; */
+    height: 55%;
+}
+#banner2 .row{
+    height: 95%;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic01{
+    width: 320px;
+    height: 120px;
+}
+
+.text01{
+    font-weight: bold;
+}
+.text01, .text02{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+/* BANNER 3 CSS*/
+#banner3{
+    background-color: rgb(255, 253, 249);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner3 .row .match .card{
+    height: 100%;
+    box-shadow: 1px 1px 3px 2px lightgray;
+    background-color: white;
+    /* border: 2px solid purple; */
+    justify-content: space-around;
+}
+#banner3 .row .match .card .cardcontainer{
+    /* border: 2px solid magenta; */
+    width: 85%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+#pic05{
+    width: 100%;
+}
+
+.header2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.subhead2{
+    font-size: 20px;
+}
+.description{
+    line-height: 25px;
+}
+
+.iconlist{
+    height: 220px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   gap: 20px;
+}
+.icon{
+    display: flex;
+    gap:20px;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(231, 229, 229);
+    padding-bottom: 7px;
+}
+.icondescription
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.quote{
+    font-size: 20px;
+    font-style: italic;
+}
+.desig{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* BANNER 4 CSS */
+
+#banner4{
+    background-color: rgb(148, 147, 146);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner4 .row .match .card{
+    width: 60%;
+    /* border: 2px solid coral; */
+    align-items: start;
+}
+
+#banner4 .row{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    height: 100%;
+}
+#banner4 .row .match{
+    justify-content: space-between;
+}
+
+#banner4 .row .match .card{
+    justify-content: space-evenly;
+}
+
+.iconlist2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.iconlist2 .iconlist .icon{
+    border-bottom: 1px solid rgb(126, 123, 123)
+}
+
+#banner4 .row .match .card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 90%;
+    width: 30%;
+    /* border: 2px solid coral; */
+}
+#banner4 .row .match .card2 .header2{
+    padding-bottom: 20px
+}
+
+#banner4 .row .match .card2 .description{
+    padding-bottom: 100px;
+}
+
+footer{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}

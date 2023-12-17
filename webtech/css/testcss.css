@@ -1,0 +1,62 @@
+/* EXTERNAL CSS EXAMPLE */
+.div3{
+    background-color: rgb(196, 84, 196);
+    color: white;
+}
+/*CLASS SELECTOR - selects and applies css to all elements with the specific class name */
+.div4{
+    background-color: crimson;
+    color: white;
+}
+/* ID SELECTOR  - selects and applies css to elements with specified ID, ID must always be unique */
+#div5{
+    background-color: lightblue;
+}
+/* TYPE SELECTOR - applies css to all the elements with the same css, but this does not overwrite other css selectors in external css */
+/*! div{background-color: lightgoldenrodyellow;} */
+/* GROUP SELECTOR - applies css to multiple classes at once by specifing the class name followed by a comma */
+.grp1,.grp2,.grp3{
+    background-color: lightpink;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+
+.head{
+    color: red;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 8px;
+}
+.once{
+    color: lightcoral;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    line-height: 50px;
+
+}
+
+.chipi{
+    width: 350px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0px auto;
+    border:5px solid  black ;
+    padding: 10px;
+    font-weight: bold;
+    background-image: url(https://media1.tenor.com/m/mJ_Og97j5WwAAAAC/chipi-chapa.gif);
+    background-size: contain;
+
+}
+
+
