@@ -13,8 +13,8 @@
 
 .container{
     /* border: 2px solid red; */
-    height: 80%;
-    width: 80%;
+    height: 95%;
+    width: 75%;
     display: flex;
     justify-content: space-evenly;
     flex-direction:  column;
@@ -23,13 +23,13 @@
 }
 
 .header{
-    height: 15%;
+    height: 12%;
     width: 100%;
     /* border: 2px solid chartreuse; */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 13px;
+    font-size: 15px;
     font-family: 'Source Sans 3', sans-serif;
     letter-spacing: 3px;
     font-weight: 400;
@@ -47,10 +47,11 @@
 
 .largetext{
     color: #ed786a;
-    font-size: 60px;
+    font-size: 45px;
     font-family: 'Arvo', serif;
     text-shadow: 2px 3px 1px #dbd8d8;
     letter-spacing: 10px;
+    font-weight: bolder;
 }
 
 .smalltext{
@@ -58,4 +59,301 @@
     font-family: 'Source Sans 3', sans-serif;
     padding-bottom: 40px;
     letter-spacing: 1px;
+}
+.intro{
+    transition: color .2s;
+}
+.intro:hover{
+        color: rgb(248, 69, 93);
+        cursor: pointer;
+}
+
+
+/* !BANNER 2 CSS */
+.banner2{
+    /* border: 2px solid yellow; */
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner2 .container{
+    height: 98%;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.header2,.imgcontainer,.buttoncontainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid blue; */
+    width: 100%;
+}
+
+.header2{
+    height: 10%;
+    font-size: 25px;
+    /* font-family: 'Arvo', serif; */
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: gray;
+    
+}
+
+
+.imgcontainer{
+    height: 60%;
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+}
+
+.cards{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:column;
+    /* border: 2px solid yellow; */
+    height: 95%;
+    width: 30%;
+}
+
+.cardimg,.cardtext{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction:column;
+    /* border: 2px solid pink; */
+    width: 100%;
+    height: 45%;
+}
+.pic01{
+    border: 5px solid lightgray;
+    height: 95%;
+    width: 95%;
+}
+.lowertext ,.uppertext{
+    /* border: 2px solid violet; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35%;
+    width: 95%;
+    text-align: center;
+}
+.uppertext{
+    height: 15%;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+}
+.redbutton{
+    border: none;
+    background-color: #ed786a;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 2px gray;
+    height: 45px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px 2px black;
+}
+/* ! BANNER 3 CSS */
+.banner3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    height: 524px;
+}
+.banner3 .container{
+    width: 100%;
+    background: url(/images/strongly4.jpg);
+}
+.textcontainer{
+    /* border: 2px solid burlywood; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 30%;
+    width: 60%;
+    font-size: 35px;
+    color: white;
+}
+
+/* ! BANNER 4 CSS */
+.banner4{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2611px;
+}
+
+.banner4 .container{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+.bannerleft, .bannerright{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+.bannerleft{
+    flex-direction: column;
+    height: 95%;
+    width: 966px;
+}
+.bannerright{
+    flex-direction: column;
+    height: 95%;
+    width: 483px;
+}
+
+.left_top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    height: 49%;
+    width: 90%;
+    /* border: 3px solid plum; */
+}
+.header3,.imagebook,.midtext,.description,.buttondiv{
+    /* border: 2px solid peru; */
+}
+.header3{
+    color: rgb(100, 100, 100);
+    font-size: 33px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+.header3{
+    transition: color .2s;
+}
+.header3:hover{
+        color: rgb(248, 69, 93);
+        cursor: pointer;
+}
+
+
+.imagebook{
+    /* width: 100%; */
+    border: 5px solid lightgray;
+    
+}
+.midtext{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    letter-spacing: 1px;
+    margin-top: 100px;
+}
+.description{
+    font-size: 18px;
+    line-height: 30px;
+}
+.left_bottom{
+    height: 49%;
+    width: 90%;
+    /* border: 3px solid plum; */
+}
+.buttondiv{
+    margin-bottom: 100px;
+}
+.button3{
+    height:50px;
+    width: 300px;
+    border: none;
+    background-color: #ed786a;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius:5px 5px 5px 5px;
+    color: white;
+}
+.left_bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+}
+
+.left_bottom .imagedisk{
+    border: 5px solid lightgray;
+}
+
+
+.right_top,.right_bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    height: 49%;
+    width: 90%;
+    /* border: 3px solid plum; */
+    font-family: 'Source Sans 3', sans-serif;
+    
+}
+
+.first,.second,.third{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    /* border: 2px solid purple; */
+    height: 30%;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    font-weight: bold;
+    height: 30px;
+    width: 75px;
+}
+
+.midtext2{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.midtext2{
+    transition: color .2s;
+}
+.midtext2:hover{
+        color: rgb(248, 69, 93);
+        cursor: pointer;
+}
+
+.description2{
+    line-height: 30px;
 }

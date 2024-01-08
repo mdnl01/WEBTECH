@@ -1,18 +1,53 @@
-/* a:link{
-    color: crimson;
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
-a:visited{
-    color: hotpink;
+
+.main {
+    background-color: yellow;
+    height: 200px;
+    width: 150px;
+    margin: 50px auto;
+    border-radius: 10px;
+    position: relative;
 }
-a:active{
-    color: yellow;
+
+.main .brdr {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: red;
+    width: 27px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    z-index: 99999;
+    transition: all 1s
 }
-a:focus{
-    color: green;
-    /* border: 2px solid yellow; */
-    /* background-color: paleturquoise; */
-    */
-/* }
-a:hover{
-    color: blueviolet;
-} */
+
+
+.outer
+{
+    background-color: blue;
+    height: 0px;
+    width: 150px;
+    margin: 50px auto;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -50px;
+    transition: all 0.5s;
+}
+
+.main:hover .outer
+{
+    height: 200px;
+}
+.main:hover i{
+    color: pink;
+}
+.main:hover .brdr{
+    background-color: yellow;
+}

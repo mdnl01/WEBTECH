@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner{
+    /* border: 2px solid red; */
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 47%;
+    height: 85%;
+    font-family: 'Lato', sans-serif;
+}
+
+.card{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+
+}
+
+.cardcontainer{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 35px 35px 35px 35px;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(125, 9, 172);
+    color: white;
+}
+.cardcontainer1{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 30px 30px 30px 30px;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid coral; */
+    height: 15%;
+    width: 80%;
+}
+
+.midsection1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid coral; */
+    height: 45%;
+    width: 80%;
+}
+.circle{
+    /* border: 2px solid purple; */
+    border-radius: 150px 150px 150px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(117, 9, 160);
+    
+}
+
+.num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid coral; */
+    height: 25%;
+    width: 80%;
+}
+.bottom .great{
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.bottom .higher{
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 12px;
+    width: 75%;
+    text-align: center;
+}
+
+
+/* RIGHT CSS */
+.header2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* border: 2px solid coral; */
+    height: 15%;
+    width: 80%;
+    font-weight: bold;
+}
+.midsection2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid coral; */
+    height: 45%;
+    width: 80%;
+    gap: 10px;
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid coral; */
+    height: 25%;
+    width: 80%;
+}
+
+.content{
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 15%;
+}
+
+.continue{
+    height: 40px;
+    width: 90%;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.reaction{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    color: hotpink;
+}
+.memory{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    color: gold;
+}
+.verbal{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    color: cyan;
+}
+.visual{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    color: purple;
+}
