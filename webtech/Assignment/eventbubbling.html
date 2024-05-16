@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENT BUB</title>
+
+    <link rel="stylesheet" href="./eventbubbling.css">
+</head>
+<body>
+    <!-- <div>HI</div> -->
+    <div id="grandparent" class="grandparent" onclick="grandparent()">
+        <div id="parent" class="parent onclick="parent()">
+            <div id="child" class="child" onclick="child()">
+                <div id="grandchild" class="grandchild" onclick="grandchild()">HIII</div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./eventbubbling.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maincontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 980px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: rgb(31, 29, 29);
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.leftsection,.rightsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+    height: 95%;
+    width: 49%;
+}
+
+.leftsection{
+    width: 40%;
+}
+.rightsection{
+    width: 58%;
+}
+.signupform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.innercontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid crimson; */
+    box-shadow: 0px 0px 22px -8px black;
+    height: 95%;
+    width: 65%;
+}
+.header{
+    font-size: 32px;
+    color: whitesmoke;
+    letter-spacing: 10px;
+}
+
+
+.inputcontainers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid goldenrod;  */
+    height: 50px;
+    width: 80%;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+.inputs{
+    height: 80%;
+    width: 45%;
+    /* border: 2px solid palevioletred; */
+    border-radius: 5px 5px 5px 5px;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    /* background-color: rgb(0, 0, 0); */
+}
+.btnsignup{
+    height: 80%;
+    width: 45%;
+    font-size: 16px;
+}
+
+#address{
+    width: 90%;
+}
+
+
+
+/* ! LOGIN SECTION */
+.leftsection .innercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.username,.password,.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 5px 5px;
+    height: 45px;
+    width: 80%;
+    padding: 5px;
+}
+
+.username,.password{
+    outline: none;
+    font-size: 16px;
+}
+.login{
+    width: 70%;
+    font-size: 16px;
+}
+
+/* !SUCCESS */
+.successlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    background-color: rgb(93, 146, 93);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    visibility: hidden;
+    transition: opacity 3s ease-in-out; /* Add transition */
+}
+
+.successreg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    background-color: rgb(93, 146, 93);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    visibility: hidden;
+    transition: opacity 3s ease-in-out; /* Add transition */
+}

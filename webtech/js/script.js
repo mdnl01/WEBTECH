@@ -1,48 +1,35 @@
-let str1="Bitty bought some butter the butter was bitter so she bought some more butter to make the bitter butter better";
-console.log(str1);
+// let year = Number(window.prompt("Enter the year"));
+// let month = window.prompt("Enter the month");
 
-console.log(str1.replace("butter","milk"));
-//Output - Bitty bought some milk the butter was bitter so she bought some more butter to make the bitter butter better
-console.log(str1.replaceAll("butter","milk"));
-//Output - Bitty bought some milk the milk was bitter so she bought some more milk to make the bitter milk better
-
-console.log(str1.replace("Butter","milk"));
-//Doesnt work due to case sensitivity
-
-
-//Enclose the word to replace within //i to ignore case sensitivity
-console.log(str1.replace(/Butter/i,"milk"));
-//Output - Bitty bought some milk the butter was bitter so she bought some more butter to make the bitter butter better
-
-//Enclose the word to replace within //g to to replaceALl
-console.log(str1.replace(/butter/g,"milk"));
-//Output - Bitty bought some milk the milk was bitter so she bought some more milk to make the bitter milk better
-
-//Enclose the word to replace within //gi for both
-console.log(str1.replace(/Butter/gi,"milk"));
-//Output - Bitty bought some milk the milk was bitter so she bought some more milk to make the bitter milk better
-
-//? .toUpperCase
-str2="HelloWorld"
-console.log(str2.toUpperCase());
-// Output - HELLOWORLD
-
-//? .subsitring()
-str3 = "Chipi chipi chapa chapa"
-console.log(str3.substring(7,20));
-//Output - chipi chapa ch
-
-//? .slice()
-str3 = "Chipi chipi chapa chapa"
-console.log(str3.slice(-4,-1));
-//Output - hap
-
-//? .padStart()
-str4 = "Chipi chipi chapa chapa"
-// console.log(typeof())
+// switch(month){
+//     case ("Jan"||"Mar"||"May"||"Jul"||"Aug"||"Oct"||"Dec"): 
+//         console.log(month+" has 31 days");
+//         break;
+//     case ("Feb"):
+//         if((year%4==0&&year%100!=0)||(year%400==0))
+//         console.log(month+" has 29 days");
+//         else
+//         console.log(month+" has 28 days");
+//         break;
+//     case("Apr"||"Jun"||"Sep"||"Nov"):
+//         console.log(month+" has 30 days");
+//         break;
+//     default:
+//         console.log("Invalid input");
+// }
 
 
-email = prompt("Enter your email");
-ph=prompt("Enter your phone number");
-pass="";
-alert(pass = pass.concat(email.slice(0,4),ph.slice(-4)));
+let year = Number(window.prompt("Enter the year"));
+let monthInput = window.prompt("Enter the month").substring(0, 3).toLowerCase();
+
+// Convert monthInput to lowercase for case-insensitive comparison
+let months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
+let isValidMonth = months.includes(monthInput);
+
+if (isValidMonth) {
+    let daysInMonth = new Date(year, months.indexOf(monthInput) + 1, 0).getDate();
+    console.log(`${monthInput} has ${daysInMonth} days`);
+} else {
+    console.log("Invalid month input");
+}
+

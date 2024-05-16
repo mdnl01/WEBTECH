@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*& NAVBAR CSS */
+.navbar{
+    height: 67px;
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarcontainer{
+    height: 100%;
+    width: 81%;
+    /* border: 2px solid yellow; */
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.flipkartlogo,.searchbarcontainer,.login,.cart,.bos,.dots{
+    /* border: 2px solid black; */
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbarcontainer{
+    background-color:#f0f5ff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 800px;
+    height: 40px;
+    gap: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.searchbar{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+}
+.searchicon{
+    margin-left: 10px;
+}
+::placeholder{
+    font-size: 17px;
+}
+
+.login{
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    width: 120px;
+    gap: 7px;
+    transition: all .3s;
+    transition-timing-function: ease-in-out;
+}
+.loginarrow {
+    transition: transform 0.3s ease-in-out;
+}
+.login:hover .loginarrow{
+    transform: rotate(180deg);
+}
+.cart{
+    width: 100px;
+    gap: 7px;
+}
+.bos{
+    width: 200px;
+    gap: 7px;
+}
+.dots{
+    width: 30px;
+}
+
+/* &CAT SLIDE CONTAINER */
+section{ 
+    background-color: rgb(243, 241, 241);
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.catslidecontainer{
+    width: 83%;
+    height: 410px;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between ;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoriescontainer{
+    width: 100%;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.categories{
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grocery,.mobiles,.fashion,.electronics,.home,.beauty,.appliances,.travel,.wheel{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.fashiontextcont,.electronicstextcont,.hometextcont,.beautytextcont,.wheeltextcont{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    transition: all .1s;
+    transition-timing-function: ease-in-out;
+}
+
+.electronicstextcont:hover .arrow{
+    transform: rotate(180deg);
+}
+.fashiontextcont:hover .arrow{
+    transform: rotate(180deg);
+}
+.hometextcont:hover .arrow{
+    transform: rotate(180deg);
+}
+.beautytextcont:hover .arrow{
+    transform: rotate(180deg);
+}
+.wheel:hover .arrow{
+    transform: rotate(180deg);
+}
+
+
+/* &IMAGE SLIDER */
+.slider {
+    height: 265px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideimage {
+    display: flex;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition effect */
+}
+
+.slides img {
+    width: 100%;
+    height: auto;
+}
+
+.leftbtn,
+.rightbtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    height: 90px;
+    width: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(226, 224, 224);
+}
+
+.leftbtn {
+    left: 0px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.rightbtn {
+    right: 0px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+/* *ALL DROPDOWNS */
+/* &LOGIN DROPDOWN */
+.login{
+    position: relative;
+}
+  
+  /* Dropdown Content- Hidden*/
+  .login .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 14px;
+    left: 0px;
+    top: 41px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  /* Dropdown links */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f5f3f3;}
+  
+  /* Show the dropdown menu on hover */
+  .login:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button */
+  .login:hover{background-color: #2a8be6;color: white;cursor: pointer;}
+
+  /* &OTHER DROPDOWNS */
+  .dots{
+    position: relative;
+    border-radius: 10px 10px 10px 10px;
+    height: 30px;
+    width: 30px;
+    margin-right: 50px;
+  }
+
+   .dots .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 1px;
+    /* right: 10px; */
+    /* right: 100px; */
+    background-color: #ffffff;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 14px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  /* Dropdown links */
+  .dots .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f5f3f3;}
+  
+  /* Show the dropdown menu on hover */
+  .dots:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button */
+  .dots:hover{background-color: #eeeff0;color: white;cursor: pointer;}

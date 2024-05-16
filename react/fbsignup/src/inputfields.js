@@ -1,0 +1,32 @@
+let obj=[{
+    id:1,
+    type:"text",
+    name:"firstname",
+},
+{
+    id:2,
+    type:"text",
+    name:"surname",
+},
+{
+    id:3,
+    type:"text",
+    name:"mobile",
+},
+{
+    id:4,
+    type:"password",
+    name:"password",
+},
+{
+    id:5,
+    type:"date",
+    name:"date",
+},
+{
+    id:6,
+    type:"select",
+    name:"gender",
+},
+]
+export default obj

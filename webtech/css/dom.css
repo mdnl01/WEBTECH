@@ -1,0 +1,7 @@
+.container{
+    border: 2px solid rebeccapurple;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}

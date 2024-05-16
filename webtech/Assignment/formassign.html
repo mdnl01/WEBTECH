@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validate</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Roboto:wght@300&family=Teko:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./formassign.css">
+</head>
+<body>
+    <section class="maincontainer">
+        <div class="leftsection">
+            <div class="innercontainer">
+                <h1 class="header">LOGIN</h1>
+                <input type="text" class="username" id="username" placeholder="Enter Phonenumber/Email">
+                <input type="password" class="password" id="password" placeholder="Enter Password">
+                <button class="login" id="login">L O G I N</button>
+                <div id="successlogin" class="successlogin">LOGIN SUCCESSFUL!!</div>
+            </div>
+        </div>
+        <h1 style="color: white;" id="replace" height="50px" width="50px"><img src="https://media.tenor.com/BizS5xQKfbcAAAAi/banana-cat-banana-cat-running.gif" alt=""></h1>
+        <div class="rightsection">
+            <form action="" class="signupform" id="signupform">
+                <div class="innercontainer">
+                    <h1 class="header">SIGN UP</h1>
+                    <div class="inputcontainers">
+                        <input type="text" class="inputs" placeholder="Firstname" id="firstname">
+                        <input type="text" class="inputs" placeholder="Lastname" id="lastname">
+                    </div>
+                    <div class="inputcontainers">
+                        <input type="email" class="inputs" id="email" placeholder="Email">
+                        <input type="tel" class="inputs" id="phone" placeholder="Phone Number" maxlength="10" minlength="10" title="Phone number must be 10 digits">
+                    </div>
+                    <div class="inputcontainers">
+                        <input type="password" class="inputs"  id="pass" placeholder="Enter Password">
+                        <input type="password" class="inputs" id="repass" placeholder="Re-enter Password">
+                    </div>
+                    <div class="inputcontainers">
+                        <input type="text" class="inputs" id="address" placeholder="Address">
+                    </div>
+                    <div class="inputcontainers">
+                        <button class="btnsignup" id="signupbtn" type="submit">S U B M I T</button>
+                    </div>
+                    <div id="successreg" class="successreg">REGISTRATION SUCCESSFUL!!</div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <script src="./formassign.js"></script>
+</body>
+</html>

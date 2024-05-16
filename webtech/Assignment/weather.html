@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./weather.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="weathercard">
+            <div class="innercontainer">
+                <div class="searchbarcontainer">
+                    <div class="searchbar" id="searchbar">
+                        <input type="text" name="" class="searchinput" id="searchinput" placeholder="Search">
+                    </div>
+                    <button class="searchicon" id="searchicon" onclick="weathersearch()">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <div class="tempanddescription">
+                    <div class="tempdescontainer">
+                        <div class="temp" id="temp"></div>
+                        <div class="icondescription" id="icondescription"></div>
+                    </div>
+                    <div class="icon" id="icon"></div>
+                </div>
+                <div class="city" id="city"></div>
+                <div class="humidcontainer">
+                    <div class="humidity" id="humidity"></div>
+                    <div class="state" id="state"></div> 
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <script src="./weather.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+.container{
+    /* border: 2px solid red; */
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left,.right{
+    display: flex;
+    /* border: 2px solid yellow; */
+    height: 95%;
+    width: 38%;
+}
+.left{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding-left: 100px;
+}
+
+.imgcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid blue; */
+    height: 200px;
+    width: 200px;
+}
+
+.smallimage{
+    height: 100%;
+    width: 100%;
+    box-shadow: 2px 2px 10px black;
+}
+
+/* ! RIGTH CSS */
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.largeimagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid violet; */
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px black;
+}
+
+.largeimage{
+   /* height: 100%; */
+   /* width: 100%; */
+   /* object-fit: contain; */
+   
+}

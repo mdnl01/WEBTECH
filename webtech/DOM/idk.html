@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form with Tooltip</title>
+  <style>
+    /* Tooltip styles */
+    .tooltip {
+      position: relative;
+      display: inline-block;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 180px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%; /* Position above the tooltip */
+      left: 50%;
+      margin-left: -90px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <form id="myForm">
+    <div class="tooltip">
+      <label for="firstname">First Name:</label>
+      <input type="text" id="firstname" name="firstname" required>
+      <div class="tooltiptext">First Name must not be empty</div>
+    </div>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    document.getElementById("myForm").addEventListener("submit", function (event) {
+      var firstname = document.getElementById("firstname").value.trim();
+
+      if (firstname === "") {
+        // Display tooltip if the first name is empty
+        event.preventDefault(); // Prevent form submission
+        var tooltip = document.querySelector('.tooltiptext');
+        tooltip.style.visibility = 'visible';
+        setTimeout(function() {
+          tooltip.style.visibility = 'hidden';
+        }, 3000); // Hide tooltip after 3 seconds (adjust as needed)
+      }
+    });
+  </script>
+
+</body>
+</html>

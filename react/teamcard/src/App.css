@@ -1,0 +1,111 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.maincomponent{
+  /* border: 2px solid red; */
+  height: 980px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f4f4f4;
+}
+
+.container{
+  /* border: 2px solid blue; */
+  margin-top: 20px;
+  height: 872px;
+  width: 1380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 100px; */
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+/* !HEADER CSS */
+.teamheader{
+  /* border: 2px solid red; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #32353a;
+  /* width: 300px; */
+  text-align: center;
+}
+.teamheader::before{
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: red;  
+  display: inline-block;
+  right: 10px;
+}
+.teamheader::after{
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: red;  
+  display: inline-block;
+  left: 10px;
+}
+.teamheader::after,.teamheader::before{
+  position: relative;
+  bottom: 8px;
+}
+
+
+/* !DESCRIPTION CSS */
+.teamdescription{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+
+}
+
+
+/* !CARD CONTAINER CSS */
+.cardcontainer{
+  /* border-radius: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  /* margin-left: 50px; */
+  margin-right: 65px;
+
+}
+
+/* ! IMG CSS */
+.cardimage{
+  height: 256px;
+  width: 256px;
+  border-radius: 50%;
+  border: 4px solid rgb(246, 242, 242);
+  box-shadow: 1px 1px 50px rgb(219, 218, 218);
+}
+/* ! NAME CSS */
+.cardname{
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #32353a;
+}
+/* !DESCRIPTION CSS */
+.carddesc{
+  width: 390px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+
+}
+/*! DESIGNATION CSS */
+.carddesig{
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  color: #7d7f81;
+}

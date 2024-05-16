@@ -1,0 +1,322 @@
+[
+  {
+    "empno": 1234,
+    "ename": "John Doe",
+    "job": "Software Engineer",
+    "mgrno": 5678,
+    "hiredate": "15-05-2023",
+    "sal": 8000,
+    "commission": 1500,
+    "deptno": 10,
+    "address": {
+      "email": "john.doe@example.com",
+      "state": "Maharashtra",
+      "city": "Mumbai",
+      "mobileno": ["+91 555-1234", "+91 9876543210"]
+    }
+  },
+  {
+    "empno": 5678,
+    "ename": "Jane Smith",
+    "job": "Project Manager",
+    "mgrno": 7890,
+    "hiredate": "20-03-2023",
+    "sal": 9500,
+    "commission": 2000,
+    "deptno": 20,
+    "address": {
+      "email": "jane.smith@example.com",
+      "state": "Delhi",
+      "city": "New Delhi",
+      "mobileno": ["+91 555-5678", "+91 9876543211"]
+    }
+  },
+  {
+    "empno": 9012,
+    "ename": "Bob Johnson",
+    "job": "Software Engineer",
+    "mgrno": 1234,
+    "hiredate": "10-08-2023",
+    "sal": 8500,
+    "commission": null,
+    "deptno": 10,
+    "address": {
+      "email": "bob.johnson@example.com",
+      "state": "Karnataka",
+      "city": "Bangalore",
+      "mobileno": ["+91 555-9012", "+91 9876543212"]
+    }
+  },
+  {
+    "empno": 3456,
+    "ename": "Alice Williams",
+    "job": "Project Manager",
+    "mgrno": 7890,
+    "hiredate": "25-06-2023",
+    "sal": 9200,
+    "commission": 3000,
+    "deptno": 20,
+    "address": {
+      "email": "alice.williams@example.com",
+      "state": "Tamil Nadu",
+      "city": "Chennai",
+      "mobileno": ["+91 555-3456", "+91 9876543213"]
+    }
+  },
+  {
+    "empno": 7890,
+    "ename": "Michael Brown",
+    "job": "HR Manager",
+    "mgrno": null,
+    "hiredate": "10-01-2023",
+    "sal": 8800,
+    "commission": 1000,
+    "deptno": 30,
+    "address": {
+      "email": "michael.brown@example.com",
+      "state": "Uttar Pradesh",
+      "city": "Lucknow",
+      "mobileno": ["+91 555-7890", "+91 9876543214"]
+    }
+  },
+{
+    "empno": 12345,
+    "ename": "Eva Garcia",
+    "job": "Software Engineer",
+    "mgrno": 1234,
+    "hiredate": "05-11-2023",
+    "sal": 8100,
+    "commission": null,
+    "deptno": 10,
+    "address": {
+      "email": "eva.garcia@example.com",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "mobileno": ["+91 555-12345", "+91 9876543215"]
+    }
+  },
+  {
+    "empno": 6789,
+    "ename": "David Lee",
+    "job": "Project Manager",
+    "mgrno": 7890,
+    "hiredate": "15-09-2023",
+    "sal": 9300,
+    "commission": 1500,
+    "deptno": 20,
+    "address": {
+      "email": "david.lee@example.com",
+      "state": "Andhra Pradesh",
+      "city": "Vijayawada",
+      "mobileno": ["+91 555-6789", "+91 9876543216"]
+    }
+  },
+  {
+    "empno": 1011,
+    "ename": "Grace Taylor",
+    "job": "Software Engineer",
+    "mgrno": 1234,
+    "hiredate": "30-04-2023",
+    "sal": 8200,
+    "commission": 1200,
+    "deptno": 10,
+    "address": {
+      "email": "grace.taylor@example.com",
+      "state": "Kerala",
+      "city": "Kochi",
+      "mobileno": ["+91 555-1011", "+91 9876543217"]
+    }
+  },
+  {
+    "empno": 1213,
+    "ename": "Sam Wilson",
+    "job": "Project Manager",
+    "mgrno": 7890,
+    "hiredate": "20-02-2023",
+    "sal": 9600,
+    "commission": null,
+    "deptno": 20,
+    "address": {
+      "email": "sam.wilson@example.com",
+      "state": "West Bengal",
+      "city": "Kolkata",
+      "mobileno": ["+91 555-1213", "+91 9876543218"]
+    }
+  },
+  {
+    "empno": 1415,
+    "ename": "Olivia Martinez",
+    "job": "Software Engineer",
+    "mgrno": 1234,
+    "hiredate": "10-07-2023",
+    "sal": 8300,
+    "commission": 1800,
+    "deptno": 10,
+    "address": {
+      "email": "olivia.martinez@example.com",
+      "state": "Gujarat",
+      "city": "Ahmedabad",
+      "mobileno": ["+91 555-1415", "+91 9876543219"]
+    }
+  },
+{
+    "empno": 1617,
+    "ename": "Charlie Brown",
+    "job": "Project Manager",
+    "mgrno": 7890,
+    "hiredate": "05-05-2023",
+    "sal": 9700,
+    "commission": 2500,
+    "deptno": 20,
+    "address": {
+      "email": "charlie.brown@example.com",
+      "state": "Rajasthan",
+      "city": "Jaipur",
+      "mobileno": ["+91 555-1617", "+91 9876543220"]
+    }
+  },
+  {
+    "empno": 1819,
+    "ename": "Sophia Miller",
+    "job": "Software Engineer",
+    "mgrno": 1234,
+    "hiredate": "20-10-2023",
+    "sal": 8400,
+    "commission": null,
+    "deptno": 10,
+    "address": {
+      "email": "sophia.miller@example.com",
+      "state": "Punjab",
+      "city": "Chandigarh",
+      "mobileno": ["+91 555-1819", "+91 9876543221"]
+    }
+  },
+  {
+    "empno": 2021,
+    "ename": "James Anderson",
+    "job": "Project Manager",
+    "mgrno": 7890,
+    "hiredate": "15-08-2023",
+    "sal": 9900,
+    "commission": 2000,
+    "deptno": 20,
+    "address": {
+      "email": "james.anderson@example.com",
+      "state": "Madhya Pradesh",
+      "city": "Bhopal",
+      "mobileno": ["+91 555-2021", "+91 9876543222"]
+    }
+  },
+  {
+    "empno": 2223,
+    "ename": "Emma White",
+    "job": "Software Engineer",
+    "mgrno": 1234,
+    "hiredate": "10-11-2023",
+    "sal": 8700,
+    "commission": 1500,
+    "deptno": 10,
+    "address": {
+      "email": "emma.white@example.com",
+      "state": "Uttarakhand",
+      "city": "Dehradun",
+      "mobileno": ["+91 555-2223", "+91 9876543223"]
+    }
+  },
+  {
+    "empno": 2425,
+    "ename": "William Turner",
+    "job": "Project Manager",
+    "mgrno": 7890,
+    "hiredate": "25-09-2023",
+    "sal": 9400,
+    "commission": null,
+    "deptno": 20,
+    "address": {
+      "email": "william.turner@example.com",
+      "state": "Bihar",
+      "city": "Patna",
+      "mobileno": ["+91 555-2425", "+91 9876543224"]
+    }
+  },
+  {
+    "empno": 2627,
+    "ename": "Lily Davis",
+    "job": "Software Engineer",
+    "mgrno": 1234,
+    "hiredate": "30-04-2023",
+    "sal": 8900,
+    "commission": 1800,
+    "deptno": 10,
+    "address": {
+      "email": "lily.davis@example.com",
+      "state": "Assam",
+      "city": "Guwahati",
+      "mobileno": ["+91 555-2627", "+91 9876543225"]
+    }
+  },
+  {
+    "empno": 2829,
+    "ename": "Daniel Moore",
+    "job": "Project Manager",
+    "mgrno": 7890,
+    "hiredate": "20-02-2023",
+    "sal": 9100,
+    "commission": 1200,
+    "deptno": 20,
+    "address": {
+      "email": "daniel.moore@example.com",
+      "state": "Chhattisgarh",
+      "city": "Raipur",
+      "mobileno": ["+91 555-2829", "+91 9876543226"]
+    }
+  },
+  {
+    "empno": 3031,
+    "ename": "Ava Taylor",
+    "job": "Software Engineer",
+    "mgrno": 1234,
+    "hiredate": "05-11-2023",
+    "sal": 9200,
+    "commission": null,
+    "deptno": 10,
+    "address": {
+      "email": "ava.taylor@example.com",
+      "state": "Jharkhand",
+      "city": "Ranchi",
+      "mobileno": ["+91 555-3031", "+91 9876543227"]
+    }
+  },
+  {
+    "empno": 3233,
+    "ename": "Oliver Harris",
+    "job": "Project Manager",
+    "mgrno": 7890,
+    "hiredate": "15-08-2023",
+    "sal": 9600,
+    "commission": 2500,
+    "deptno": 20,
+    "address": {
+      "email": "oliver.harris@example.com",
+      "state": "Haryana",
+      "city": "Chandigarh",
+      "mobileno": ["+91 555-3233", "+91 9876543228"]
+    }
+  },
+  {
+    "empno": 3435,
+    "ename": "Sophie Wilson",
+    "job": "Software Engineer",
+    "mgrno": 1234,
+    "hiredate": "10-07-2023",
+    "sal": 9300,
+    "commission": 2000,
+    "deptno": 10,
+    "address": {
+      "email": "sophie.wilson@example.com",
+      "state": "Orissa",
+      "city": "Bhubaneswar",
+      "mobileno": ["+91 555-3435", "+91 9876543229"]
+    }
+  }
+]

@@ -1,0 +1,37 @@
+.grandparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 600px;
+    height: 600px;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 65%;
+    width: 65%;
+
+}
+
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    height: 65%;
+    width: 65%;
+
+}
+
+.grandchild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    height: 45%;
+    width: 45%;
+}

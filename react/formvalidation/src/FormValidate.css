@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.maincontainer{
+    /* border: 2px solid red; */
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formcontainer{
+    /* border: 2px solid purple; */
+    /* height: 70%; */
+    /* width: 30%; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 30px darkblue;
+    border-radius: 10px;
+}
+.signup{
+    /* border: 2px solid red; */
+    height: 60px;
+    width: 500px;
+    font-size: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 8px;
+    text-shadow: 2px 2px 5px rebeccapurple;
+}
+div{
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+}
+
+input,button{
+    height: 60px;
+    width: 500px;
+    font-size: 24px;
+    border-radius: 10px;
+    outline: none;
+    border-color: rebeccapurple;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+.userinput,.passinput{
+    padding-left: 5px;
+    outline: none;
+} 
+
+/* input::placeholder{
+    padding: 10px;
+} */
+
+button{
+    outline: none;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 10px;
+}
+
+/* ! ERROR DIVS*/
+
+.usererror,.passerror{
+    /* border: 2px solid red; */
+    height: 5px;
+    color: red;
+    /* display: none; */
+    z-index: 1;
+    /* background-color: black; */
+}
+.usererror{
+    position: absolute;
+    bottom: 46px;
+    left: 25px;
+    height: 20px;
+    width: fit-content;
+    background-color: white;
+}
+
+.passerror{
+    position: absolute;
+    bottom: 46px;
+    left: 25px;
+    background-color: white;
+    height: 20px;
+    width: fit-content;
+}
+
+.usercontainer,.passcontainer{
+    position: relative;
+}
+
+.submitbtn:hover{
+    cursor: pointer;
+    background-color: rgb(136, 84, 187);
+}

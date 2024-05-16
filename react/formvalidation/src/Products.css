@@ -1,0 +1,36 @@
+.prodnav{
+    height: 40px;
+    width: 80%;
+    background-color: gold;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    box-shadow: 1px 5px 20px darkgray;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.prodnav a{
+    color: rgb(27, 26, 26);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    transition: color .8s;
+}
+.prodnav a:hover{
+    text-shadow: 1px 1px 10px rgb(240, 107, 12);
+}
+
+
+.prodnav a:first-child{
+    margin-left: 50px;
+}
+
+.prodnav .active{
+    color: lightcoral;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
